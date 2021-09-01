@@ -30,7 +30,7 @@ def randomData():
            'data4', 
            'data5', 
            'data6'] #  data1 就是从genToken里获取到的参数 自己填写下吧
-    index = random.randint(0, len(dataList)-1) //随机生成datalist中的index
+    index = random.randint(0, len(dataList)-1)
     return dataList[index]
     print('使用的是第'+ str(index) + '随机sign')
     return dataList[index]
