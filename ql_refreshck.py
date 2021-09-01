@@ -49,7 +49,7 @@ def getckitem(key):
 
 def wstopt(wskey):
     try:
-        url = "http://cdn.xia.me/getck"
+        url = "https://api.m.jd.com/client.action?functionId=switchConfig&clientVersion=10.0.6&build=88852&client=android&d_brand=Xiaomi&d_model=M2102J2SC&osVersion=11&screen=2206*1080&partner=xiaomi001&oaid=d54cc4674115badb&openudid=9f7e5a6ab7440031&eid=eidA183e412237l543bf826f1f63bdfabb17d5e29b19eaed85c1fb13OFaLlDDQzhB85DgX21RjOfnNro+gaVwe4j3x5j3ry7Yx58BfkmtK9GKq9rAK&sdkVersion=30&lang=zh_CN&uuid=9f7e5a6ab7440031&aid=9f7e5a6ab7440031&area=7_517_518_5791&networkType=UNKNOWN&wifiBssid=unknown&uts=0f31TVRjBSsfRbGER3FTwU4lhlJU61gJjp3Np7myESm0Y61GqKRDiFjxcOegwy%2FTg2Sl5t6Z5AvDSLgLA0TmlX5aWwBGZ7XBSXwZUIzP6ZMmZ6GsEf1xkxAdR6tGe4Byfh%2FWRY5QG7%2BZmwZSEHXUYgvYcz5fkqBAQUBAPKIhG67b1yAvr0Hw3X5xaMmc%2BwWpWWtiEQNw44eTSzhCtknAgQ%3D%3D&uemps=0-0&harmonyOs=0&st=1630503114696&sign=ad4e4d5f498f73a9f64fdc0153affb30&sv=12"
         headers = {
             "Host": "signer.nz.lu",
             "user-agent": "Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
